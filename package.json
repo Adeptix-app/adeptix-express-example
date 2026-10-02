@@ -1,0 +1,14 @@
+{
+  "name": "adeptix-express-checkout-example",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Minimal Express example: crypto payments + merchant checkout + webhook handling with the Adeptix Node SDK.",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "adeptix": "github:Adeptix-app/adeptix-node",
+    "express": "^4.21.2"
+  }
+}
