@@ -21,7 +21,7 @@ ADEPTIX_API_KEY=ak_live_... ADEPTIX_WEBHOOK_SECRET=whsec_... npm start
 Then open http://localhost:3000.
 
 `npm install` pulls the [Adeptix Node SDK](https://github.com/Adeptix-app/adeptix-node) straight
-from GitHub (it isn't on the npm registry yet), so `git` needs to be on your `PATH`.
+from GitHub (it is installed straight from GitHub), so `git` needs to be on your `PATH`.
 
 To receive webhooks locally, tunnel port 3000 (e.g. with `cloudflared tunnel` or `ngrok http 3000`)
 and set the tunnel's URL + `/webhooks/adeptix` as your webhook URL in the Adeptix dashboard's
